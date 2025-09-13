@@ -1,0 +1,21 @@
+Version Control
+
+GIT
+
+STARTING GIT REPOSITORY
+1. git init -> initialize working directory
+2. git status -> check the files in staging area if there are tracked or untracked
+3. git add <filename> -> adding file to staging area
+3.1 git add . -> add all files in the stage area
+4. git commit -m (commit message) "Commit message here" -> save point of all the types of changes made to files inside the staging area
+5. git log -> gets all the commit done in the staging area
+6. git diff <filename> -> check differences in the updated file from its previous version committed
+7. git checkout -> restore previous version of the file committed.
+
+8. git remote add origin <GitHub repository> -> links the local repository to the GitHub remote repository
+9. git push -u origin main - push local repository to the remote repository in main branch
+
+10. git clone <remote repository> - create a copy in local workstation of a remote repository
+
+MAIN BRANCH --> a branch of commits main in a local or remote reposit
+WORKING AREA --> STAGING AREA (place where files are tracked and committed)
